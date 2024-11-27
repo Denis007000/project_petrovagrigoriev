@@ -1,176 +1,90 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=header, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УДПО - Университет дополнительного профессионального образования</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Заголовок -->
     <header>
-        <!-- Логотип -->
-        <a>Recipes</a>
-        <!--/ Логотип -->
-        <!-- Навигация -->
-        <nav>
+        <img src="images/logo_black_1.png" alt="Логотип УДПО">
+        <nav class="top-nav">
             <ul>
-                <li><a href="/">Главная</a></li>
                 <li><a href="#">Курсы</a></li>
-                <li><a href="#">Избранное</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Сервисы</a></li>
+                <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
-        <!--/ Навигация -->
-        <button type="button">
-            <img src="images/icon/login.svg" alt="Войти" width="16" height="16">
-            <span>Войти</span>
-        </button>
     </header>
-    <!--/ Заголовок -->
-    <!-- Основной контент -->
+
     <main>
-        <!-- Первый экран -->
-        <section>
-            <div>
-                <h2>Повышение квалификации и профессиональная переподготовка</h2>
-                <p>Найди то, что тебе нужно</p>
-                <div>
-                    <button type="button">Выбрать курс или программу</button>
-                    <button type="button">Войти</button>
-                </div>
-            </div>
-            <img src="images/section1.png" alt="Изображение завтрака" width="602" height="800">
+        <section class="intro">
+            <h1>УДПО - Университет дополнительного профессионального образования</h1>
+            <p>О нас: Мы предлагаем курсы повышения квалификации и профессиональной переподготовки для всех желающих. Наша цель - помочь вам достичь успеха в вашей карьере. Мы работаем с опытными преподавателями и используем современные методики обучения.</p>
+            <p>Наша команда состоит из профессионалов в различных областях, которые готовы поделиться своими знаниями и опытом.</p>
         </section>
-        <!--/ Первый экран -->
 
-        <section>
-            <h2>Умная сортировка по тегам</h2>
-            <p>Добавляй рецепты и указывай наиболее популярные теги. Это позволит быстро находить любые категории.</p>
+        <section class="project">
+            <h2>Образование наше все!</h2>
+            <h3>О проекте</h3>
+            <img src="images/Group_329.png" alt="О проекте">
+            <p>Наш проект направлен на предоставление качественного образования, которое отвечает современным требованиям рынка труда. Мы стремимся к тому, чтобы каждый студент получил актуальные знания и навыки, необходимые для успешной карьеры.</p>
+            <p>Мы организуем вебинары, семинары и практические занятия, которые помогут вам лучше усвоить материал и применить его на практике.</p>
+        </section>
+
+        <section class="images-text">
+            <img src="images/Scenes05.png" alt="Образование" class="project-image">
+            <p>Мы предлагаем разнообразные курсы, которые помогут вам развить профессиональные навыки и повысить свою конкурентоспособность на рынке труда. Каждый курс включает в себя теоретические и практические занятия, а также возможность задать вопросы преподавателям.</p>
+        </section>
+
+        <section class="services">
+            <h2>Наши услуги</h2>
             <ul>
-                <li>
-                    <img src="images/icon/menu.svg" alt="Иконка для простых блюд" width="22" height="24">
-                    <h3>Простые блюда</h3>
-                    <p>Время приготвления таких блюд не более 1 часа</p>
-                </li>
-                <li>
-                    <img src="images/icon/cook.svg" alt="Иконка для детского меню" width="24" height="24">
-                    <h3>Детское</h3>
-                    <p>Самые полезные блюда которые можно детям любого возраста</p>
-                </li>
-                <li>
-                    <img src="images/icon/chef.svg" alt="Иконка для блюд от шеф-поваров" width="24" height="23">
-                    <h3>От шеф-поваров</h3>
-                    <p>Требуют умения, времени и терпения, зато как в ресторане</p>
-                </li>
-                <li>
-                    <img src="images/icon/fire.svg" alt="Иконка для блюд на праздник" width="24" height="23">
-                    <h3>На праздник</h3>
-                    <p>Чем удивить гостей, чтобы все были сыты за праздничным столом</p>
-                </li>
+                <li>Курсы повышения квалификации по различным направлениям</li>
+                <li>Профессиональная переподготовка для смены профессии</li>
+                <li>Вебинары и семинары на актуальные темы</li>
+                <li>Индивидуальные консультации и mentoring</li>
+                <li>Доступ к онлайн-ресурсам и учебным материалам</li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <a href="#" target="_blank">@glazest</a>
-                <img src="images/section2.png" alt="Изображение тыквенного супчика" width="543" height="543">
-            </div>
-            <div>
-                <div>
-                    <span>
-                        <img src="images/icon/heart.svg" alt="Избранное" width="24" height="24">
-                        356
-                    </span>
-                    <span>
-                        <img src="images/icon/timer.svg" alt="Время приготовления" width="24" height="24">
-                        35 минут
-                    </span>
-                </div>
-                <div>
-                    Рецепт дня
-                    <img src="img/recipe-day.png" alt="Рецепт дня" width="50" height="50">
-                </div>
-                <h2>Тыквенный супчик на кокосовом молоке</h2>
-                <p>Если у вас осталась тыква, и вы не знаете что с ней сделать, то это решение для вас! Ароматный,
-                    согревающий суп-пюре на кокосовом молоке. Можно даже в Пост!</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Поиск рецептов</h2>
-            <p>Введите примерное название блюда, а мы по тегам найдем его</p>
-            <form action="/" method="get">
-                <input type="search" name="text" placeholder="Название блюда....">
-                <input type="submit" value="Поиск">
-            </form>
+        <section class="advantages">
+            <h2>Наши преимущества</h2>
             <ul>
-                <li>Мясо</li>
-                <li>Деликатесы</li>
-                <li>Пироги</li>
-                <li>Рыба</li>
+                <li>Квалифицированные преподаватели с опытом работы в индустрии</li>
+                <li>Гибкий график обучения, который подходит для работающих студентов</li>
+                <li>Современные учебные материалы и методы обучения</li>
+                <li>Поддержка студентов на всех этапах обучения, включая карьерное консультирование</li>
+                <li>Сертификаты, признанные работодателями по окончании курсов</li>
             </ul>
         </section>
+
+        <section class="company-image">
+            <img src="images/Scenes02.png" alt="Наша компания" class="company-image">
+            <p>Наша компания активно развивается и всегда стремится к совершенству. Мы гордимся своими достижениями и отзывами студентов, которые подтверждают высокое качество нашего обучения.</p>
+        </section>
+
+        <section class="testimonials">
+            <h2>Отзывы наших студентов</h2>
+            <ul>
+                <li>"Курсы были очень полезными. Я получил много новых знаний!" - Анна Смирнова</li>
+                <li>"Отличные преподаватели и интересные занятия!" - Сергей Кузнецов</li>
+                <li>"Я прошел курс по бухгалтерии и теперь работаю в крупной компании. Спасибо!" - Ирина Петрова</li>
+            </ul>
+            <button class="next-testimonials">Следующие отзывы</button>
+        </section>
+
+        <footer>
+            <div class="contact-info">
+                <h2>Контакты</h2>
+                <p>Телефон: +7 (123) 456-78-90</p>
+                <p>Email: info@udpo.ru</p>
+                <p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+                <p>Мы всегда готовы ответить на ваши вопросы и помочь с выбором курса.</p>
+            </div>
+        </footer>
     </main>
-    <!--/ Основной контент -->
-    <!-- Подвал -->
-    <footer>
-        <a>Recipes</a>
-        <p>&copy; Recipes 2021</p>
-    </footer>
-    <!--/ Подвал -->
-    <!-- Формы -->
-    <div>
-        <!-- Форма "Войдите в профиль" -->
-        <section>
-            <button type="button"><img src="images/icon/close.svg" alt="Закрыть окно" width="24" height="24"></button>
-            <h2>Войдите в профиль</h2>
-            <p>Добавлять рецепты могут только зарегистрированные пользователи.</p>
-            <div>
-                <button type="button">Войти</button>
-                <button type="button">Регистрация</button>
-            </div>
-        </section>
-        <!--/ Форма "Войдите в профиль" -->
-        <!-- Форма "Регистрация" -->
-        <section>
-            <button type="button"><img src="images/icon/close.svg" alt="Закрыть окно" width="24" height="24"></button>
-            <h2>Регистрация</h2>
-            <form action="/" method="post">
-                <input type="text" name="name" placeholder="Имя" required>
-                <input type="email" name="email" placeholder="Логин" required>
-                <fieldset>
-                    <div>
-                        <input type="password" name="password" placeholder="Пароль" required>
-                        <span>Минимум 8 символов</span>
-                    </div>
-                    <input type="password" name="repeat-password" placeholder="Повторите пароль" required>
-                </fieldset>
-                <fieldset>
-                    <input type="submit" value="Зарегистрироваться">
-                    <button type="button">Отмена</button>
-                </fieldset>
-                <button type="button">У меня уже есть аккаунт</button>
-            </form>
-        </section>
-        <!--/ Форма "Регистрация" -->
-        <!-- Форма "Войти" -->
-        <section>
-            <button type="button"><img src="images/icon/close.svg" alt="Закрыть окно" width="24" height="24"></button>
-            <h2>Войти</h2>
-            <form action="/" method="post">
-                <input type="email" name="email" placeholder="Логин" required>
-                <input type="password" name="password" placeholder="Пароль" required>
-                <fieldset>
-                    <input type="submit" value="Войти">
-                    <button type="button">Отмена</button>
-                </fieldset>
-                <button type="button">У меня еще нет аккаунта</button>
-            </form>
-        </section>
-        <!--/ Форма "Войти" -->
-    </div>
-    <!--/ Формы -->
 </body>
-
 </html>
