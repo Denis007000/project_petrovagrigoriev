@@ -1,0 +1,21 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Golos', Arial, sans-serif;
+    font-size: 55px;
+    line-height: 71px;
+    color: #828282;
+
+    overflow-x: hidden;
+   }
+
+img {
+        display: 
+        max-width: 100%;
+        height: auto;
+}
